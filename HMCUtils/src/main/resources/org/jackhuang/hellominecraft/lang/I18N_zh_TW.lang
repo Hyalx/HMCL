@@ -95,7 +95,7 @@ login.failed.connect_authentication_server=無法連接認證伺服器,可能是
 login.profile.not_logged_in=無法修改遊戲資料同時未登錄
 login.profile.selected=無法修改遊戲資料. 你必須登出再返回.
 
-login.methods.yggdrasil=正版登錄
+login.methods.yggdrasil=VeryAuth
 login.methods.offline=離線模式
 login.methods.no_method=沒有登入方式...
 
