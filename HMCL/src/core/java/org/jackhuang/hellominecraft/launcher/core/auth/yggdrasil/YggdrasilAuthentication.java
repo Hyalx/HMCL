@@ -40,7 +40,7 @@ public class YggdrasilAuthentication {
         .registerTypeAdapter(PropertyMap.class, new PropertyMap.Serializer())
         .registerTypeAdapter(UUID.class, new UUIDTypeAdapter()).create();
 
-    protected static final String BASE_URL = "https://zero.mc-dev.cn/api/launcher/";
+    protected static final String BASE_URL = "https://zero.mc-dev.cn/api/mojang/";
     protected static final URL ROUTE_AUTHENTICATE = NetUtils.constantURL(BASE_URL + "authenticate");
     protected static final URL ROUTE_REFRESH = NetUtils.constantURL(BASE_URL + "refresh");
 
