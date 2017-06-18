@@ -50,14 +50,14 @@ def buildnumber = System.getenv("TRAVIS_BUILD_NUMBER")
 if (buildnumber == null)
     buildnumber = System.getenv("BUILD_NUMBER")
 if (buildnumber == null)
-    buildnumber = "233"
+    buildnumber = "233-OFFICAL"
     
 def versionroot = System.getenv("VERSION_ROOT")
 if (versionroot == null)
-    versionroot = "2.4.1"
+    versionroot = "2.4.1-Identity"
 
 String mavenGroupId = 'HMCL'
-String mavenVersion = versionroot + '.' + buildnumber
+String mavenVersion = versionroot + '-' + buildnumber
 String bundleName = "Hello Minecraft! Launcher"
 
 group = mavenGroupId
